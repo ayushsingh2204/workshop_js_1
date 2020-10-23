@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Books</title>
+    <link rel="stylesheet" href="cssworkshop.css">
+
+    <script src="jsworkshop.js">
+        
+    </script>
+    </head>
+    <body>
+        
+<header class="header">
+    <h1 style="text-align: center;">First Workshop</h1>
+  </header>
+  
+  <section class="section">
+    <aside class="aside1">
+       <div class="link">
+            
+              <li><a class="a1" href="#" onclick="hid()">Add Book</a></li>
+              <li><a class="a1" href="#" target="iframe">Remove Book</a></li>
+              <li><a class="a1" href="#" target="iframe">Edit Book</a></li>
+              <li><a class="a1" href="#" target="iframe">List of Books</a></li>
+            
+         
+        </div>
+    </aside>
+      <article class="article" >
+        <div style="text-align: center" id="show"><h1>Workshop</h1>
+            <p>The work shop is for HTML,CSS and javascript</p></div>
+        <div  id="div1" hidden>
+            <h3>Book Details</h3>
+        
+            <div><label for="" class="l1">Book ID   : </label>  <input type="number" value="1" name="" class="i1" id="bid" ></div><br>
+            <div> <label for="" class="l1">Book Name : </label>  <input type="text" value="Java" name="" class="i1" id="bname" ></div><br>
+            <div><label for="" class="l1">Book Author :</label>   <input type="text" name="" value="Martin" class="i1" id="bauthor" ></div><br>
+            
+            
+            <div><input type="submit" name="Submit" onclick="save()" id=""></div>
+ 
+        
+ 
+ 
+         <table id="table1" style="text-align: center;" >
+             <tr>
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Author</th>
+                 <th><input type="button"  id="remove" onclick="remove(this)" value="remove"/></th>
+             </tr>
+          </table>
+        
+          </div>
+      </article>
+
+     <aside class="aside">
+        <div>
+            <h2>What is HTML</h2>
+            <p>It is a markup language.</p>
+            <h2>What is CSS</h2>
+            <p>It is a cascading style sheet.</p>
+            <h2>What is Javascript</h2>
+            <p>It is a scripting language .</p>
+           
+          </div>
+     </aside>
+  
+       
+    </section>
+
+  
+
+  <section>
+    <footer class="footer">
+        <p><b>@copyright</b></p>
+      </footer>
+    </section>
+
+    </body>
+</html>

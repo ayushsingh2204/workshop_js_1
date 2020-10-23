@@ -1,0 +1,60 @@
+
+
+.header{
+    background-color:green; 
+    border-radius: 10px; height: 70px;
+    }
+
+.section{
+        height: 30px; 
+        width: 100%; 
+        background-color: lightgoldenrodyellow;
+        border-radius: 10px;
+    }
+    .link li{
+    text-decoration: none;
+    padding:8px;
+     margin-bottom: 7px;
+    background-color:lightgreen;
+  
+  
+  
+    }
+    .a1{
+        text-decoration: none;
+    }
+    .aside1{
+        position: absolute;
+        top: 200px;
+        height: 100px;
+        
+    }
+    
+  .article{
+        position: absolute;
+        top: 120px;
+        left:400px;
+        right: 400px;
+        text-decoration: none;
+    }
+    
+.aside {
+        width: 18%;
+        padding-left: 15px;
+        margin-left: 15px;
+        margin-top:30px ;
+        float: right;
+        font-style: italic;
+      background-color: lightgreen;
+    }
+    
+
+    .footer{
+      
+        top: 94%;
+        width: 100%;
+        background-color:burlywood;
+        text-align: center;
+        position: fixed;
+    }
+    
